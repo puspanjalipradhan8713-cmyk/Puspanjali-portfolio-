@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <meta name="theme-color" content="#0a0a1a">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Pushpanjali Pradhan | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles"></div>
+
+    <!-- Floating Gradient Shapes -->
+    <div class="bg-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Top Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">PP<span>.</span></div>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Drawer -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" class="menu-link">🏠 Home</a>
+        <a href="#about" class="menu-link">👤 About</a>
+        <a href="#skills" class="menu-link">⚡ Skills</a>
+        <a href="#contact" class="menu-link">💬 Contact</a>
+    </div>
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- 3D Card - Touch Tilt -->
+        <div class="card-3d-wrapper">
+            <div class="card-3d" id="card3d">
+                <div class="card-face card-front">
+                    <div class="avatar-ring">
+                        <div class="avatar">PP</div>
+                    </div>
+                    <h3>Pushpanjali Pradhan</h3>
+                    <p>BC Student • 1st Year</p>
+                    <div class="social-mini">
+                        <span>💻</span><span>🎨</span><span>📚</span>
+                    </div>
+                </div>
+                <div class="card-face card-back">
+                    <h3>Let's Connect! 🚀</h3>
+                    <p>Always learning, always growing</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <p class="greeting">👋 Hello, I'm</p>
+            <h1 class="name">Pushpanjali</h1>
+            <h1 class="name-gradient">Pradhan</h1>
+            <div class="typewriter">
+                <span id="typed"></span>
+                <span class="cursor-blink">|</span>
+            </div>
+            <p class="hero-desc">First Year BC Student • Aspiring Developer • Creative Thinker</p>
+            
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <span>Hire Me 🚀</span>
+                </a>
+                <a href="#about" class="btn btn-outline">
+                    <span>Know More 👇</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-grid">
+            <div class="about-card" data-tilt>
+                <div class="card-icon">🎓</div>
+                <h3>Education</h3>
+                <p>Currently pursuing BC (Bachelor of Computer Applications) in First Year. Passionate about learning new technologies every day.</p>
+            </div>
+            <div class="about-card" data-tilt>
+                <div class="card-icon">💡</div>
+                <h3>Passion</h3>
+                <p>Love creating beautiful websites and applications. Fascinated by animation, design and problem-solving.</p>
+            </div>
+            <div class="about-card" data-tilt>
+                <div class="card-icon">🎯</div>
+                <h3>Goal</h3>
+                <p>To become a skilled full-stack developer and build innovative projects that make a difference.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-item" data-tilt>
+                <div class="skill-icon">🌐</div>
+                <h4>HTML5</h4>
+                <div class="progress"><div class="progress-bar" data-width="85%"></div></div>
+            </div>
+            <div class="skill-item" data-tilt>
+                <div class="skill-icon">🎨</div>
+                <h4>CSS3</h4>
+                <div class="progress"><div class="progress-bar" data-width="80%"></div></div>
+            </div>
+            <div class="skill-item" data-tilt>
+                <div class="skill-icon">⚡</div>
+                <h4>JavaScript</h4>
+                <div class="progress"><div class="progress-bar" data-width="70%"></div></div>
+            </div>
+            <div class="skill-item" data-tilt>
+                <div class="skill-icon">🐍</div>
+                <h4>Python</h4>
+                <div class="progress"><div class="progress-bar" data-width="65%"></div></div>
+            </div>
+            <div class="skill-item" data-tilt>
+                <div class="skill-icon">💻</div>
+                <h4>C Programming</h4>
+                <div class="progress"><div class="progress-bar" data-width="75%"></div></div>
+            </div>
+            <div class="skill-item" data-tilt>
+                <div class="skill-icon">🎭</div>
+                <h4>UI/UX Design</h4>
+                <div class="progress"><div class="progress-bar" data-width="70%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        
+        <div class="contact-info">
+            <h3>Let's talk! 💬</h3>
+            <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+            <div class="contact-item">
+                <span class="contact-icon">📧</span>
+                <span>pushpanjali@example.com</span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">📍</span>
+                <span>India</span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-icon">🎓</span>
+                <span>BC Student - 1st Year</span>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit" class="btn btn-primary">Send Message 🚀</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made with 💜 by <strong>Pushpanjali Pradhan</strong></p>
+        <p class="footer-year">© 2025</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

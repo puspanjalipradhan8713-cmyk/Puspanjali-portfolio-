@@ -1,3 +1,4 @@
+
 // =====================
 // Detect Mobile / Touch Device
 // =====================
@@ -101,7 +102,7 @@ window.addEventListener('resize', () => {
 // Typewriter Effect
 // =====================
 const words = [
-    'BC Student 🎓',
+    'BCA Student 🎓',
     'Future Developer 💻',
     'Creative Designer 🎨',
     'Problem Solver 🧠',
